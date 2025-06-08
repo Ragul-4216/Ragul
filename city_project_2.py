@@ -12,7 +12,7 @@ def chat_with_llm_model1(user_input):
     
     response = requests.post(
         "https://llmfoundry.straive.com/azure/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-05-01-preview",
-        headers={"Authorization": f"Bearer {LLMFOUNDRY_TOKEN}:Muthu_bot"},
+        headers={"Authorization": f"Bearer {LLMFOUNDRY_TOKEN}:Ragul_bot"},
         json={"messages": [{"role": "user", "content": user_input}]},
     )
     
